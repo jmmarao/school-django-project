@@ -8,4 +8,5 @@ class SerializerStudent(serializers.ModelSerializer):
 
 class SerializerCourse(serializers.ModelSerializer):
     class Meta:
-        model = Coursefields = '__all__'
+        model = Course
+        fields = '__all__'
